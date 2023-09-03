@@ -1,2 +1,2 @@
 # fossrd.github.io
-FOSS-RD Web Blog 
+hugo new posts/my-first-post.md
