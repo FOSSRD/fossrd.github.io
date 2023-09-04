@@ -12,7 +12,7 @@ tags:
 El dia de hoy, mientras terminaba los ultimos *tickets y pendientes* del dia,
 me percate de que habia recibido un mensaje interesante en uno de los chats.
 Se trataba de una muy interesante lectura llamada [How Complex Systems Fail.](https://how.complexsystems.fail/)
-> [Version local](HowComplexSystemsFail.html)
+> [Version local](/HowComplexSystemsFail.html)
 
 Y leyendo de reojo lo que se hablaba sobre esa lectura pude ver que se trataba
 de una especie de conjunto de ideas filosoficas sobre ser un SRE, aunque luego
