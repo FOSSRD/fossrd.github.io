@@ -31,11 +31,64 @@ y tratare de ejemplificar:
 
 ## Como fallan los sistemas complejos
 ### La naturaleza de los fallos
-1 2 4 5 14 
+.1 .2 .4 .5 14 
+Los sistemas complejos suelen ser por defecto peligrosos, esto es parte de la naturaleza de estos sistemas, esta es la razon por la que creamos defensas en
+todos los sistemas de este tipo.
+
+Tambien debemos entender que debido a esto mismo es  que todos los sistemas
+complejos que existen tienen defensas contra estas fragilidades, defensas que
+son hasta cierta medida exitosas, pues de no ser asi dichos sistemas no podrian
+existir por mucho tiempo en primer lugar.
+
+Esta misma complejidad tambien lleva al hecho de que en todos los sistemas
+complejos tengamos puntos debiles presentes, latentes pero ocultos debido a las
+protecciones que tenemos puestas en nuestro sistema, esperando a ser posibles
+partes en un fallo mayor y siempre cambiando con los cambios de tecnologia,
+politicas de la empresa u organizmo regidor del sistema y esfuerzos para 
+erradicar fallos. Es muy importante notar como esto implica que casi todo el 
+tiempo los sistemas estan funcionando parcialmente rotos, apoyados en los 
+sistemas de redundancia, carga operacional humana y bajo una capacidad menor
+a la maxima que permitiria el sistema.
+
 ### Como se evaluan los fallos
-3 6 8 9 11
+.3 .6 8 9 11
+Los problemas en los sistemas complejos, como se puede derivar de la parte
+anterior, necesitan de multiples fallos en distintos puntos para poder suceder,
+debido a todas las defensas implementadas en un sistema complejo es casi con 
+certetza que podemos afirmar que  detras de cada catastrofe han habido
+multiples fallos que llevasen a la misma.
+
+Tambien debemos tener en cuenta durantet la evaluacion de estos fallos que los
+sistemas complejos estan siempre cerca del punto de quiebre tanto fisica como
+temporalmente y esto es algo que muchos evaluadores no tienen en mente al
+momento de analizar una catastrofe en el sistema, los operadores no tienen que
+llevar la carga del fallo, pues este casi siempre esta por ocurrir, esto es lo
+que lleva a la idea de analisis post mortem que no sean solo tabularios para
+contar culpas y "pecados" de los operarios, sino solamente una forma de buscar
+que mejorias implementar al sistema.
+
 ### Como los fallos se atribuyen a una causa proxima (5 whys)
-3 5 7 8 15 18
+.3 .5 7 8 15 18
+
+Como ya pudimos ver, es lo normal que siempre existan errores compuestos en los
+sistemas complejos, pero es muy normal ver que se le adjudiquen las catastrofes
+a un _root cause_ o falla principal, esto es, a grandes razgos un error rotundo
+y a mejor inspeccion, un reflejo de la forma habitual de razonar de los seres
+humanos.
+
+Otro punto importante es el hecho de que como se menciono en _la naturaleza_
+_de los fallos_ los sistemas suelen correr de manera permanente en un estado
+degradado, lo que hace que en muchos momentos se este a punto de fallar pero
+sin llegar a ello, y es importante que en nuestros analisis post catastrofe se
+puedan tener en cuenta estos encuentros cercanos con la catastrofe y el estado
+degradado en el que se encontraba el sistema para poder tener un mejor 
+entendimiento de como realmente podriamos evitar esa catastrofe a futuro o
+que tantos errores realmente se necesitaron para llegar al punto del 
+desequilibrio.
+
+De nuevo, adjudicar a una "raiz" del incidente es solo en vestigio cultural y 
+no refleja el entendimiento tecnico actual sobre como funcionan......
+
 ### El resultante nuevo entendimiento de la seguridad del "paciente"
 7 8 10 11 12 13 16 17 18
 
