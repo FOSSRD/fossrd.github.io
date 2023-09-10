@@ -11,7 +11,7 @@
     enable = true;
     previews = [
       {
-        command = ["hugo " "server" "--port" "$PORT" "--bind" "0.0.0.0 "];
+        command = ["hugo" "server" "--port" "9002" "--bind" "0.0.0.0"];
         manager = "web";
         id = "web";
       }
