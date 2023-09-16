@@ -11,7 +11,7 @@ tags:
 ---
 ## De que vas hoy?
 
-El día de hoy, mientras terminaba los últimos *tickets y pendientes* del dia,
+El día de hoy, mientras terminaba los últimos *tickets y pendientes* del día,
 me percate de que había recibido un mensaje interesante en uno de los chats.
 Se trataba de una muy interesante lectura llamada [How Complex Systems Fail.](https://how.complexsystems.fail/)
 > [Version local](/HowComplexSystemsFail.html)
